@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.row{
+    margin-left: 0%;
+    margin-right: 0px;
+}
+.navbar{
+    background-image: linear-gradient(175deg, black 70% , white );
+    
+}
+
+.navbar-brand{
+    color: rgb(18 255 231 / 97%) !important;
+    font-size: 27px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    /* font-style: italic; */
+}
+
+.navbar-nav .nav-link{
+    color: rgba(177, 119, 216, 0.973) !important;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: transparent !important;
+}
+
+.navbar-toggler span i{
+    color: white;
+    font-size: 40px;
+    font-weight: bold ;
+    border: none;
+
+}
+/* =============================================================== */
+
+.carousel-item{
+    width: 100%;
+    height: 89vh;
+}
+
+.carasuol1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* ==================================================================== */
+.content-about{
+    background-color: black;
+    height: auto;
+    color:  rgba(177, 119, 216, 0.973);
+    text-align: center;
+    background-color: black;
+    padding-bottom: 20px;
+    
+}
+
+.line1{
+    width: 50%;
+    height: 5px;
+    background-image: linear-gradient(150deg , white , rgba(177, 119, 216, 0.973) , white);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.line2{
+    width: 40%;
+    height: 1px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+border-bottom: 3px dashed  rgba(177, 119, 216, 0.973);
+}
+
+.line3{
+    width: 30%;
+    height: 1px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+border-bottom: 3px dashed  rgba(177, 119, 216, 0.973);
+}
+
+
+/* gallary */
+
+.nav-tabs {
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+
+
+.nav-tabs .nav-item .nav-link{
+color: black;
+font-size: 18px;
+font-weight: bold;
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: darkturquoise;
+    border-radius: 15px;
+    border: none;
+}
+
+.gallary-img{
+    width: 100%;
+height: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.gallary-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media(min-width: 300px){
+    .nav-tabs{
+        padding: 0%;
+    }
+    .nav-item{
+display: flex;
+    }
+
+    .nav-tabs .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .gallary-img{
+        width: 80%;
+        margin: 10px auto;
+
+    }
+
+    .map iframe{
+        /* margin-top: 20px; */
+    }
+}
+.nav-tabs .nav-item{
+    background-color: #da55f8;
+    border-radius: 15px;
+}
+
+
+/* contact  */
+
+.map{
+    width: 100%;
+    height: 100%;
+    /* margin:20px auto; */
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer-about{
+    background-color: black;
+    height: auto;
+    color:  gray;
+    text-align: left;
+    background-color: black;
+    padding-bottom: 20px;
+    
+}
+
+.footer-about a{
+
+    color: gray;
+}
+
+.footer-about i{
+    font-size: 32px;
+    font-weight: bold;
+    background-color: transparent;
+    float: right;
+    margin: 5px;;
+}
